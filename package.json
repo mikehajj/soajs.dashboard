@@ -60,7 +60,7 @@
     "shortid": "^2.2.4",
 
     "soajs": "git://github.com/mikehajj/soajs.git",
-    "soajs.core.drivers": "git://github.com/mikehajj/soajs.core.driversgit",
+    "soajs.core.drivers": "git://github.com/mikehajj/soajs.core.drivers.git",
 
     "unzip2": "0.2.5",
     "url-clean": "^1.0.2",
