@@ -23,7 +23,7 @@
     "grunt-jsdoc": "2.1.0",
     "grunt-contrib-clean": "1.0.0",
     "grunt-contrib-copy": "*",
-    "grunt-mocha-test": "0.13.2",
+    "grunt-mocha-test": "0.132.3.*.2",
     "grunt-env": "0.4.4",
     "grunt-istanbul": "0.7.2",
     "grunt-coveralls": "1.0.1",
@@ -34,10 +34,10 @@
     "shelljs": "0.7.5",
     "sinon": "1.17.6",
 
-    "soajs.controller": "2.3.*",
+    "soajs.controller": "git://github.com/mikehajj/soajs.controller.git",
     "soajs.mongodb.data": "2.1.*",
-    "soajs.oauth": "2.3.*",
-    "soajs.urac": "2.3.*"
+    "soajs.oauth": "git://github.com/mikehajj/soajs.oauth.git",
+    "soajs.urac": "git://github.com/mikehajj/soajs.urac.git"
   },
   "dependencies": {
     "async": "2.1.4",
@@ -59,8 +59,8 @@
     "rimraf": "2.5.4",
     "shortid": "^2.2.4",
 
-    "soajs": "2.3.0",
-    "soajs.core.drivers": "3.4.0",
+    "soajs": "git://github.com/mikehajj/soajs.git",
+    "soajs.core.drivers": "git://github.com/mikehajj/soajs.core.driversgit",
 
     "unzip2": "0.2.5",
     "url-clean": "^1.0.2",
