@@ -197,7 +197,7 @@ service.init(function () {
 				//correct template
 				let imfvClone = soajsLib.utils.cloneObj(req.soajs.inputmaskData);
 				delete req.soajs.inputmaskData.soajs_project;
-				if(req.soajs.inputmaskData && Object.keys(req.soajs.inputmaskData).length > 0){
+				if(!req.files && !req.files.file && !req.files.file.name){
 					req.soajs.inputmaskData = imfvClone;
 					//correct the template inputs
 					BL.correct(config, req, res, deployer, function (error, data) {
@@ -206,7 +206,7 @@ service.init(function () {
 					});
 				}
 				//import new template
-				else if(req.files && req.files.filename) {
+				else {
 					req.soajs.inputmaskData = imfvClone;
 					//unzip file and process template first time
 					BL.import(config, req, res, deployer, function (error, data) {
