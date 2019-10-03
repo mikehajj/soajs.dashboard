@@ -296,7 +296,8 @@ let container = {
 															}
 														}
 													}
-												}
+												},
+												"name": {"type":"string"}
 											},
 											"additionalProperties": false
 										}
