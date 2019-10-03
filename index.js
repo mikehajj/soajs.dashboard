@@ -206,7 +206,7 @@ service.init(function () {
 					});
 				}
 				//import new template
-				else{
+				else if(req.files && req.files.filename) {
 					req.soajs.inputmaskData = imfvClone;
 					//unzip file and process template first time
 					BL.import(config, req, res, deployer, function (error, data) {
